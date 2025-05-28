@@ -1,0 +1,33 @@
+body{
+    font-family: 'Playfair Display';
+}
+
+.nav-bar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+    border: solid 2px none;
+    background-color: #D8BFD8;
+}
+.nav-bar-links{
+    text-decoration: none;
+}
+.nav-bar-button{
+    width: 10rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: #4B0082;
+    background-color: transparent;
+    border: transparent;
+}
+.nav-bar-button:hover{
+    border-bottom: solid 4px #4B0082;
+}
+.page-title{
+    color: #4B0082;
+    text-align: center;
+    font-size: 2rem;
+}

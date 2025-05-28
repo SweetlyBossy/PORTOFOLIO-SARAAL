@@ -1,0 +1,30 @@
+.overall-main-container{
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.about-mini-me{
+    border: 3px solid transparent;
+    border-radius: 2rem;
+    width: 25.3rem;
+    height: auto;
+    background-color: #E6E6FA;
+    margin-left: 2rem;
+}
+.owner-img{
+    display: flex;
+    margin: 1rem auto;
+    width: 20rem;
+    border: 5px solid #4B0082;
+    border-radius: 2rem;
+}
+.about-me-mini-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-family: 'Spectral';
+    color: #4B0082;
+    font-size: 1.25rem;
+    width: 21.5rem;
+}
