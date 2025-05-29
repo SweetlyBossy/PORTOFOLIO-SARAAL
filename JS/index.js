@@ -11,6 +11,8 @@ function displayProjectCards () {
         <h5 class="project-name-smaller">${projects.subTitle}<h5>
         <img src="${projects.media.url}" alt="${projects.media.alt}" class="project-img"/>
         <p class="short-description">${projects.description.short}</p>
+        <p class="short-tech">${projects.description.techShort}</p>
+
 
         <div class="button-container">
         <a href="${projects.link.githubRepoLink}"><button class="project-button">GITHUB REPO</button></a>

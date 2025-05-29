@@ -1,43 +1,101 @@
-.overall-main-container{
+body {
+    font-family: 'Spectral';
+    letter-spacing: 0.05em;
+}
+
+.overall-main-container {
     display: flex;
+    flex-direction: row;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
-.about-mini-me{
+
+.placement-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-mini-me {
     border: 3px solid transparent;
     border-radius: 2rem;
-    width: 25.3rem;
+    width: 25rem;
     height: auto;
     background-color: #E6E6FA;
     margin-left: 2rem;
 }
-.owner-img{
+
+.owner-img {
     display: flex;
     margin: 1rem auto;
     width: 20rem;
     border: 5px solid #4B0082;
     border-radius: 2rem;
 }
-.about-me-mini-text{
+
+.about-me-mini-text {
     display: flex;
     justify-content: center;
     text-align: center;
     margin: auto;
     font-family: 'Spectral';
+    letter-spacing: 0.05em;
     color: #4B0082;
     font-size: 1.25rem;
     width: 21.5rem;
 }
-.project-card{
+
+.latest-project-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin: auto;
+    margin-left: 1rem;
+    gap: 1rem;
 }
-.project-img{
-    width: 15rem;
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 35rem;
+    border: 3px solid transparent;
+    border-radius: 2rem;
+    background-color: #E6E6FA;
+}
+
+.project-name-smaller {
+    margin-top: -1rem;
+}
+
+.project-img {
+    width: 20rem;
     height: 10rem;
     border-radius: 2rem;
+    margin-top: -1rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.project-button {
+    width: 9rem;
+    height: 3rem;
+    font-family: 'Spectral';
+    letter-spacing: 0.05em;
+    color: white;
+    background-color: #4B0082;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.project-button:hover{
 
 }
