@@ -5,8 +5,6 @@ const projectId = params.get('id');
 
 const specificPost = projects.find(projects => projects.id === Number (projectId));
 
-
-
 function displayProject () {
     const displayArea = document.querySelector('.display-area');
     displayArea.innerHTML = '';
@@ -14,17 +12,18 @@ function displayProject () {
         const projectCards = document.createElement('article');
         projectCards.classList.add('project-card');
         projectCards.innerHTML = `
-        <h2 class="project-name">${projects.title}</h2>
-        <h5 class="project-name-smaller">${projects.subTitle}</h5>
-        <img src="${projects.media.url}" alt="${projects.media.alt}" class="project-img"/>
-        <p class="short-description">${projects.description.main}</p>
-        <p class="short-tech">${projects.description.techMain}</p>
+        <h2 class="project-name">${specificPost.title}</h2>
+        <h5 class="project-name-smaller">${specificPost.subTitle}</h5>
+        <img src="${specificPost.media.url}" alt="${specificPost.media.alt}" class="project-img"/>
+        <p class="short-description">${specificPost.description.main}</p>
+        <p class="short-tech">${specificPost.description.techMain}</p>
 
 
         <div class="button-container">
-        <a href="${projects.link.githubRepoLink}"><button class="project-button">GITHUB REPO</button></a>
-        <a href="${projects.link.deploymentLink}"><button class="project-button">DEPLOYMENT LINK</button></a>
+        <a href="${specificPost.link.githubRepoLink}"><button class="project-button">GITHUB REPO</button></a>
+        <a href="${specificPost.link.deploymentLink}"><button class="project-button">DEPLOYMENT LINK</button></a>
         </div>
         `;
+        displayArea.appendChild(projectCards);
 }
 displayProject();
