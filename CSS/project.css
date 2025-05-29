@@ -1,3 +1,13 @@
+.display-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 .project-card {
     display: flex;
     flex-direction: column;
