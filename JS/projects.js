@@ -1,5 +1,6 @@
 export const projects = [
-    {
+    {   
+        id: 1,
         title:'Whine Whisperer',
         subTitle: 'PROJECT EXAM 1',
         description:{
@@ -18,6 +19,7 @@ export const projects = [
         },
     },
     {
+        id: 2,
         title:'Science Museum of London',
         subTitle: 'SEMESTER PROJECT 1',
         description:{
@@ -36,6 +38,7 @@ export const projects = [
         },
     },
     {
+        id: 3,
         title:'GameHub',
         subTitle: 'CROSS COURSE PROJECT 1',
         description:{

@@ -1,5 +1,4 @@
 import { projects } from './projects.js';
-
 function displayProjectCards () {
     const displayArea = document.querySelector('.latest-project-container');
     displayArea.innerHTML = '';
@@ -20,6 +19,13 @@ function displayProjectCards () {
         </div>
         `;
         displayArea.appendChild(projectCards);
+
+        projectCards.addEventListener('click', (event) => {
+            if(!event.target.closest('.project-button')){
+                window.location.href = `HTML/project-specific.html?id=${projects.id}`;
+            }
+        });
     })
 }
+
 displayProjectCards();

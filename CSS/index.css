@@ -97,5 +97,6 @@ body {
     margin-top: 1rem;
 }
 .project-button:hover{
-
+background-color: rgb(186, 95, 186);
+cursor: pointer;
 }

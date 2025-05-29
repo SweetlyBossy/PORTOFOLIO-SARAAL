@@ -1,0 +1,41 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 35rem;
+    border: 3px solid transparent;
+    border-radius: 2rem;
+    background-color: #E6E6FA;
+}
+.project-name-smaller {
+    margin-top: -1rem;
+}
+.project-img {
+    width: 20rem;
+    height: 10rem;
+    border-radius: 2rem;
+    margin-top: -1rem;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.project-button {
+    width: 9rem;
+    height: 3rem;
+    font-family: 'Spectral';
+    letter-spacing: 0.05em;
+    color: white;
+    background-color: #4B0082;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.project-button:hover{
+background-color: rgb(186, 95, 186);
+cursor: pointer;
+}
