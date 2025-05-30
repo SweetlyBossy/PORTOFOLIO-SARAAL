@@ -11,6 +11,9 @@
 .project-card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     width: 25rem;
     height: 35rem;
     border: 3px solid transparent;
