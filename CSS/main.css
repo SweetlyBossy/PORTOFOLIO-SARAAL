@@ -42,3 +42,29 @@ body {
     height: 6rem;
     background-color: #D8BFD8;
 }
+@media (max-width:1920px) and (min-width: 1440px) {}
+@media (max-width:1440px) and (min-width: 1024px) {}
+@media (max-width:1024px) and (min-width: 768px) {}
+@media (max-width:768px) and (min-width: 430px) {}
+@media (max-width:430px) and (min-width: 350px) {    
+    .nav-bar-container {
+        width: 100%;
+        height: 6rem;
+    }
+    
+    .nav-bar-button {
+        width: 100%;
+        height: 2.5rem;
+        margin-left: 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .page-title {
+        font-size: 1.25rem;
+    }
+    
+    .just-a-box {
+        width: 100%;
+        height: 3rem;
+    }
+}
