@@ -1,4 +1,5 @@
 import { projects } from './projects.js';
+
 function displayProjectCards () {
     const displayArea = document.querySelector('.display-area');
     displayArea.innerHTML = '';

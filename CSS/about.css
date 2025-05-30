@@ -1,0 +1,35 @@
+.main-container{
+    display: flex;
+    margin: 1rem 0;
+}
+.about-me-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.img-holder{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 45rem;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: #E6E6FA;
+}
+.selfie-photo{
+    width: 35rem;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+.text-holder{
+    margin-left: 2rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: #E6E6FA;
+}
