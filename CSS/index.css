@@ -106,12 +106,63 @@ body {
     cursor: pointer;
 }
 
-@media (max-width:1920px) and (min-width: 1440px) {}
+@media (max-width:1720px) and (min-width: 1440px) {
+    .about-mini-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+        width: 22.5rem;
+        height: auto;
+    }
+
+    .owner-img {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+        width: 20rem;
+    }
+
+    .about-me-mini-text {
+        font-size: 1.25rem;
+        width: 20rem;
+    }
+
+    .latest-project-container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1rem;
+        margin: 1rem auto;
+    }
+
+    .project-card {
+        width: 18rem;
+        height: 45rem;
+    }
+
+    .project-name {
+        font-size: 1.25rem;
+    }
+
+    .project-name-smaller {
+        margin-top: -1rem;
+    }
+
+    .project-img {
+        width: 20rem;
+        height: 15rem;
+        margin-top: -1rem;
+    }
+}
 
 @media (max-width:1440px) and (min-width: 1024px) {
         .overall-main-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -126,7 +177,8 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 57.5rem;
+        width: 54.5rem;
+        margin-left: 1rem;
     }
 
     .owner-img {
