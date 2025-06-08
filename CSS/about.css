@@ -1,6 +1,7 @@
 .main-container{
     display: flex;
     margin: 1rem 0;
+    margin-bottom: 39rem;
 }
 .about-me-container{
     display: flex;
